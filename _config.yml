@@ -1,0 +1,6 @@
+# jekyll
+name: brainfuck nu
+markdown: redcarpet
+encoding: utf-8
+exclude: [Gemfile,Gemfile.lock,README.md]
+
