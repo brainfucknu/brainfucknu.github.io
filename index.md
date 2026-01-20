@@ -18,7 +18,7 @@ While other languages hide behind layers of abstraction, syntactic sugar, and "h
 
 ### 1. **Absolute Minimalism** - Only 8 Commands
 
-```
+```brainfuck
 >  increment the data pointer
 <  decrement the data pointer
 +  increment the byte at the data pointer
@@ -33,48 +33,54 @@ No keywords to memorize. No frameworks to install. No dependency hell. Just pure
 
 ### 2. **Hello World** - The True Way
 
-<div class="example-box">
-
 Other languages lie to you with their "convenience":
 
 **Python:**
+
 ```python
 print("Hello World!")
 ```
+
 *Hides everything from you. What's really happening? You'll never know.*
 
 **JavaScript:**
+
 ```javascript
 console.log("Hello World!");
 ```
+
 *Console? Log? Abstractions upon abstractions!*
 
 **The Brainfuck Truth:**
+
 ```brainfuck
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
 ```
-*Every. Single. Operation. Explicit. Beautiful. Honest.*
 
-</div>
+*Every. Single. Operation. Explicit. Beautiful. Honest.*
 
 ### 3. **FizzBuzz** - No Shortcuts to Glory
 
-<div class="example-box">
-
-While lesser languages use modulo operators and if-statements like crutches, Brainfuck forces you to truly understand the algorithm:
+While lesser languages use modulo operators and if-statements like crutches, Brainfuck forces you to truly [understand the algorithm](https://codereview.stackexchange.com/questions/57382/fizzbuzz-in-brainfuck):
 
 ```brainfuck
-++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>++.>+.+++++++..+++.<
-++.------------.<++++++++.--------.+++.------.--------.>+.
+++++++++++[>++++++++++<-]>>++++++++++>->>>>>>>>>>>>>>>>-->+++++++[->++
+++++++++<]>[->+>+>+>+<<<<]+++>>+++>>>++++++++[-<++++<++++<++++>>>]++++
++[-<++++<++++>>]>>-->++++++[->+++++++++++<]>[->+>+>+>+<<<<]+++++>>+>++
+++++>++++++>++++++++[-<++++<++++<++++>>>]++++++[-<+++<+++<+++>>>]>>-->
+---+[-<+]-<[+[->+]-<<->>>+>[-]++[-->++]-->+++[---++[--<++]---->>-<+>[+
++++[----<++++]--[>]++[-->++]--<]>++[--+[-<+]->>[-]+++++[---->++++]-->[
+->+<]>>[.>]++[-->++]]-->+++]---+[-<+]->>-[+>>>+[-<+]->>>++++++++++<<[-
+>+>-[>+>>]>[+[-<+>]>+>>]<<<<<<]>>[-]>>>++++++++++<[->-[>+>>]>[+[-<+>]>
++>>]<<<<<]>[-]>>[>++++++[-<++++++++>]<.<<+>+>[-]]<[<[->-<]++++++[->+++
++++++<]>.[-]]<<++++++[-<++++++++>]<.[-]<<[-<+>]+[-<+]->>]+[-]<<<.>>>+[
+-<+]-<<]
 ```
 
-*This is a simplified output example. A real FizzBuzz in Brainfuck? That's for true masters.*
-
-</div>
+*FizzBuzz in Brainfuck? That's for true masters.*
 
 ### 4. **Addition** - Pure Mathematics
 
-<div class="example-box">
 
 Adding two single-digit numbers:
 
@@ -88,7 +94,6 @@ Adding two single-digit numbers:
 
 No `+` operator hiding the computational complexity. You build addition from scratch!
 
-</div>
 
 ### 5. **Why Every Other Language Falls Short**
 
@@ -103,7 +108,7 @@ No `+` operator hiding the computational complexity. You build addition from scr
 Think you can solve [Advent of Code 2024](https://adventofcode.com/2024) in Brainfuck? That's the ultimate test of programming prowess. While others use their "high-level" languages, you'll be operating at the level of pure computational truth.
 
 <div class="aoc-reference">
-✨ Visit <a href="https://adventofcode.com/2024" target="_blank">Advent of Code 2024</a> and embrace the challenge with the only language that matters ✨
+✨ Visit <a href="https://adventofcode.com" target="_blank">Advent of Code</a> and embrace the challenge with the only language that matters ✨
 </div>
 
 ---

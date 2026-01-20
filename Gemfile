@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 gem "jekyll"
 gem "github-pages"
-
+gem "bigdecimal"
+gem "logger"
+gem "redcarpet"
